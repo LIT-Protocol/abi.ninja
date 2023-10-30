@@ -21,12 +21,12 @@ export const NETWORKS = {
     rpcUrl: "http://127.0.0.1:8545/",
   },
   mainnet: {
-    name: "mainnet",
+    name: "chronicle - Lit Protocol testnet",
     color: "#ff8b9e",
-    chainId: 1,
-    rpcUrl: `https://mainnet.infura.io/v3/${INFURA_ID}`,
-    blockExplorer: "https://etherscan.io/",
-    etherscanEndpoint: "https://api.etherscan.io",
+    chainId: 175177,
+    rpcUrl: `https://lit-protocol.calderachain.xyz/http`,
+    blockExplorer: "https://lit-protocol.calderaexplorer.xyz",
+    etherscanEndpoint: "https://lit-protocol.calderaexplorer.xyz/api",
     apiKey: ETHERSCAN_API_KEY,
   },
   goerli: {
