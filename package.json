@@ -62,7 +62,9 @@
       "**/hardhat",
       "**/hardhat/**",
       "**/hardhat-ts",
-      "**/hardhat-ts/**"
+      "**/hardhat-ts/**",
+      "**/helia",
+      "**/helia/**"
     ]
   },
   "dependencies": {},
