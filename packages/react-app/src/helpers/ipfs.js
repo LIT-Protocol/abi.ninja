@@ -1,6 +1,7 @@
-import { create } from "ipfs-http-client";
+// import { create } from "ipfs-http-client";
+import { createHelia } from "helia";
 import { BufferList } from "bl";
-export const ipfs = create({ host: "ipfs.infura.io", port: "5001", protocol: "https" });
+export const ipfs = createHelia({ host: "ipfs.infura.io", port: "5001", protocol: "https" });
 
 export async function addToIPFS(file) {
   const fileAdded = await ipfs.add(file);
